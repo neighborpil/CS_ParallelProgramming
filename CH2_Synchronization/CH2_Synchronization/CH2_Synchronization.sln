@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lec10_CriticalSection", "lec10_CriticalSection\lec10_CriticalSection.csproj", "{ED3FA498-611B-4D64-99BC-0792105C6FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lec11_InterlockedOperation", "Lec11_InterlockedOperation\Lec11_InterlockedOperation.csproj", "{86BD869F-0FD0-4CEC-8215-C1E071A633F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED3FA498-611B-4D64-99BC-0792105C6FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3FA498-611B-4D64-99BC-0792105C6FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3FA498-611B-4D64-99BC-0792105C6FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3FA498-611B-4D64-99BC-0792105C6FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BD869F-0FD0-4CEC-8215-C1E071A633F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BD869F-0FD0-4CEC-8215-C1E071A633F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BD869F-0FD0-4CEC-8215-C1E071A633F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BD869F-0FD0-4CEC-8215-C1E071A633F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {165C5B68-C8CA-4749-B883-A7126453C424}
+	EndGlobalSection
+EndGlobal
