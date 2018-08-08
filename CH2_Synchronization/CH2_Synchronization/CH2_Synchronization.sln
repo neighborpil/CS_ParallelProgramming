@@ -13,6 +13,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinLockTest", "SpinLockTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinlockRecursive", "SpinlockRecursive\SpinlockRecursive.csproj", "{5FD8E89E-BA61-45EC-9C46-05675440FECF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lec13_Mutex", "lec13_Mutex\lec13_Mutex.csproj", "{9660A561-9AFB-41E2-BFDA-19871DA911A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lec13_2_Mutex2", "lec13_2_Mutex2\lec13_2_Mutex2.csproj", "{D8C4401B-B1E0-4BF4-A9CD-8FEDBCBBA9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutextTest1", "MutextTest1\MutextTest1.csproj", "{8F7670D8-A464-4904-B400-CD272C5A751D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutextTest2", "MutextTest2\MutextTest2.csproj", "{97C040ED-A1A5-4C73-BD3B-390CDB8E24FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lec14_ReaderWriterLock", "Lec14_ReaderWriterLock\Lec14_ReaderWriterLock.csproj", "{FCDAFE89-D3C6-4700-AFB9-14CD193F8BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{B7BF6C37-0F90-4A13-A84E-1442D00EBA47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +51,30 @@ Global
 		{5FD8E89E-BA61-45EC-9C46-05675440FECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FD8E89E-BA61-45EC-9C46-05675440FECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FD8E89E-BA61-45EC-9C46-05675440FECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9660A561-9AFB-41E2-BFDA-19871DA911A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9660A561-9AFB-41E2-BFDA-19871DA911A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9660A561-9AFB-41E2-BFDA-19871DA911A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9660A561-9AFB-41E2-BFDA-19871DA911A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C4401B-B1E0-4BF4-A9CD-8FEDBCBBA9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C4401B-B1E0-4BF4-A9CD-8FEDBCBBA9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C4401B-B1E0-4BF4-A9CD-8FEDBCBBA9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C4401B-B1E0-4BF4-A9CD-8FEDBCBBA9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7670D8-A464-4904-B400-CD272C5A751D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7670D8-A464-4904-B400-CD272C5A751D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7670D8-A464-4904-B400-CD272C5A751D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7670D8-A464-4904-B400-CD272C5A751D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97C040ED-A1A5-4C73-BD3B-390CDB8E24FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97C040ED-A1A5-4C73-BD3B-390CDB8E24FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97C040ED-A1A5-4C73-BD3B-390CDB8E24FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97C040ED-A1A5-4C73-BD3B-390CDB8E24FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCDAFE89-D3C6-4700-AFB9-14CD193F8BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDAFE89-D3C6-4700-AFB9-14CD193F8BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDAFE89-D3C6-4700-AFB9-14CD193F8BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDAFE89-D3C6-4700-AFB9-14CD193F8BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BF6C37-0F90-4A13-A84E-1442D00EBA47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BF6C37-0F90-4A13-A84E-1442D00EBA47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BF6C37-0F90-4A13-A84E-1442D00EBA47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BF6C37-0F90-4A13-A84E-1442D00EBA47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
