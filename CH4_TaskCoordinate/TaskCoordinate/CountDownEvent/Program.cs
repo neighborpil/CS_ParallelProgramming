@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lec27_CountdownEvent
+namespace CountDownEventTest
 {
     class Program
     {
-        private static int taskCount = 5;
+        static int taskCount = 5;
         static CountdownEvent cte = new CountdownEvent(taskCount);
         static Random random = new Random();
         static void Main(string[] args)
@@ -20,7 +20,7 @@ namespace Lec27_CountdownEvent
                 {
                     Console.WriteLine($"Entering task {Task.CurrentId}");
                     Thread.Sleep(random.Next(3000));
-                    cte.Signal(); // countdown이 끝났다는걸 알림
+                    cte.Signal();
                     Console.WriteLine($"Exiting task {Task.CurrentId}");
                 });
             }
@@ -32,7 +32,6 @@ namespace Lec27_CountdownEvent
                 Console.WriteLine("All tasks completed");
             });
             finishTask.Wait();
-
             Console.ReadKey();
         }
     }
