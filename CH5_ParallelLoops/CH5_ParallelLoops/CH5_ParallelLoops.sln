@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parallel_Invoke_For_Foreach
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lec33_Breaking_Cancellation_Exception", "Lec33_Breaking_Cancellation_Exception\Lec33_Breaking_Cancellation_Exception.csproj", "{FE79B0D9-27FE-4A5D-BA89-63D5E4A59804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Breaking_Cancellation_Exception_Test", "Breaking_Cancellation_Exception_Test\Breaking_Cancellation_Exception_Test.csproj", "{A2072C2F-0B44-404F-A869-063E8F7F8E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FE79B0D9-27FE-4A5D-BA89-63D5E4A59804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE79B0D9-27FE-4A5D-BA89-63D5E4A59804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE79B0D9-27FE-4A5D-BA89-63D5E4A59804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2072C2F-0B44-404F-A869-063E8F7F8E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2072C2F-0B44-404F-A869-063E8F7F8E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2072C2F-0B44-404F-A869-063E8F7F8E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2072C2F-0B44-404F-A869-063E8F7F8E34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
